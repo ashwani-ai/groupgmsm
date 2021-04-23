@@ -41,10 +41,10 @@ CREATE TABLE `info` (
 --
 
 INSERT INTO `info` (`id`, `Name`, `NGO`, `Mobile`, `Aadhar`, `Amount`, `Date`) VALUES
-(3, 'shinchan@gmail.com', 'Sarthak Foundation', '2147483647', '2147483647', '10000', 'August,05 2017'),
-(4, 'shinchan@gmail.com', 'Sarthak Foundation', '2147483647', '2147483647', '10000', 'August,05 2017'),
-(5, 'shinchan@gmail.com', 'Sarthak Foundation', '9415367430', '123456789012', '10000', 'August,05 2017'),
-(6, 'shinchan@gmail.com', 'Sarthak Foundation', '9026224948', '123456789012', '100', 'August,05 2017');
+(3, 'msm19b008@iiitdm.ac.in.com', 'Sarthak Foundation', '2147483647', '2147483647', '10000', 'August,05 2017'),
+(4, 'msm19b046@iiitdm.ac.in, 'Sarthak Foundation', '2147483647', '2147483647', '10000', 'August,05 2017'),
+(5, 'msm19b046@iiitdm.ac.in', 'Sarthak Foundation', '9415367430', '123456789012', '10000', 'August,05 2017'),
+(6, 'msm19b038@iiitdm.ac.in', 'Sarthak Foundation', '9026224948', '123456789012', '100', 'August,05 2017');
 
 -- --------------------------------------------------------
 
@@ -70,7 +70,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `Name`, `Email`, `Password`, `Occupation`, `Gender`, `Birthday`, `Reg_date`, `hash`, `active`) VALUES
-(46, 'shinchan', 'shinchan@gmail.com', '7c9515c20d806973c6b7431bc8ffe070', 'web developer', 'M', '06/12/1996', 'August,05 2017', 'f0adc8838f4bdedde4ec2cfad0515589', 1);
+(46, 'shinchan', 'msm19b038@iiitdm.ac.in', '7c9515c20d806973c6b7431bc8ffe070', 'web developer', 'M', '06/12/1996', 'August,05 2017', 'f0adc8838f4bdedde4ec2cfad0515589', 1);
 
 --
 -- Indexes for dumped tables
